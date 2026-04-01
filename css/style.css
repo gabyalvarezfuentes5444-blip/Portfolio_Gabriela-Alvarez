@@ -156,13 +156,43 @@ a:hover {
 footer {
     background-color: #811A1A;
     height: 50px;
-    padding: 10px;
+    padding: 20px;
     color: #F5F5F5;
     display: flex;
     justify-content: center;
-    font-size: 24px;
+    
 }
 
 footer > p {
     color: #F5F5F5;
+}
+
+/* GALLERY */
+
+
+
+h2 {
+    font-family: Titan One;
+    font-size: 150px;
+    color: #811A1A;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+span {
+    background-color: #811A1A;
+    padding: 8px 300px;
+    display: flex;
+    justify-content: center;
+}
+
+ p {
+    color: #811A1A;
+    padding-top: 80px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    font-weight: bolder;
 }
