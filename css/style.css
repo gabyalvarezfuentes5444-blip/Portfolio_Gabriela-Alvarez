@@ -129,7 +129,7 @@ a:hover {
     object-fit: cover;
     border-radius: 50%;
     margin-top: 60px;
-    margin-left: 24px;
+    /* margin-left: 24px; */
     border: 20px #811A1A solid ;
     border-style: double;
     padding: 20px;
@@ -139,7 +139,7 @@ a:hover {
 .About-me > div {
     /* background-color: #811A1A; */
     display: flex;
-    gap: 200px;
+    gap: 100px;
     flex-direction: row;
     align-items: center;
     padding-bottom: 30px;
@@ -150,7 +150,7 @@ a:hover {
     color:#811A1A;
     max-width: 600px;
     font-size: 24px;
-    padding-right: 24px;
+    /* padding-right: 24px; */
 }
 
 footer {
@@ -171,7 +171,7 @@ footer > p {
 
 
 
-h2 {
+.H-gallery > h2 {
     font-family: Titan One;
     font-size: 150px;
     color: #811A1A;
@@ -183,16 +183,150 @@ h2 {
 
 span {
     background-color: #811A1A;
-    padding: 8px 300px;
+    padding: 8px 0px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     justify-content: center;
 }
 
- p {
+ .p-gallery {
     color: #811A1A;
     padding-top: 80px;
     max-width: 900px;
     margin: 0 auto;
     text-align: justify;
     font-weight: bolder;
+}
+
+
+@media screen and (max-width: 430px) {
+
+/* HEADER */
+
+.marca {
+    width: 300px;
+    height: auto;
+    padding: 30px 0;
+}
+
+nav {
+    display: flex;
+   flex-direction: column;
+    padding: 24px 24px;
+    list-style: none;
+    gap: 15px;
+}
+
+.btn > a {
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #ae4d4d;
+    color: #F5F5F5;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 9px;
+}
+
+a {
+    font-size: 15px;
+}
+
+
+/* PROJECT */
+
+.Projects {
+    background-color: #811A1A;
+    height: 700px;
+    padding-top: 40px;
+
+}
+.Projects > h2 {
+    font-family: Titan One;
+    font-size: 70px;
+    color: #F5F5F5;
+    padding-top: 10px;
+    padding-left: 24px;
+}
+.Projects > div > a > img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.Projects > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+    /* padding-left: 15px; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* ABOUT ME  */
+
+.About-me > h2 {
+    font-size: 70px;
+    align-items: center;
+}
+
+.About-me > div > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 20px #811A1A solid ;
+    border-style: double;
+    padding: 20px;
+
+}
+
+.About-me > div {
+
+    display: flex;
+    gap: 200px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.About-me > div > p {
+    color:#811A1A;
+    max-width: 300px;
+    font-size: 20px;
+    /* padding-right: 24px; */
+    align-items: center;
+    text-align: center;
+}
+
+.About-me > div {
+    /* background-color: #811A1A; */
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    /* padding-bottom: 30px; */
+    justify-content: center;
+}
+
+
+/* GALLERY */
+
+.H-gallery > h2 {
+    font-size: 50px;
+}
+
+span {
+        padding: 0.5px 0px;
+}
+
+.p-gallery{
+    max-width: 300px;
+}
 }
